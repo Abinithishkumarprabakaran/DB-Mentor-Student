@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", function (request, response) {
-  response.send("Lets Assign Mentor and Student");
+  response.send("Lets Assign Mentor and Student {and For the API Endpoints refer the Github, API Endpoints.txt}");
 });
 
 app.use("/", assignStudentsMentors)

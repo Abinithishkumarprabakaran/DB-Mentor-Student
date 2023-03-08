@@ -1,0 +1,21 @@
+// GET Methods
+
+Welcome Message -> https://db-mentor-student.vercel.app/
+
+Mentor Details -> https://db-mentor-student.vercel.app/mentor-details
+
+Student Details -> https://db-mentor-student.vercel.app/student-details
+
+Details of students for particular mentor -> https://db-mentor-student.vercel.app/student/mentor/1   {1,2,3,4 -> refers to mentor}
+
+// POST methods
+
+Creating a mentor -> https://db-mentor-student.vercel.app/create-mentor
+
+Creating a Student -> https://db-mentor-student.vercel.app/create-student
+
+// PUT methods
+
+Adding a Student to the mentor -> https://db-mentor-student.vercel.app/add-student/1    {1,2,3,4 -> refers to mentor, for whom the students to be assigned}
+
+Changing or Adding mentor to a Student -> https://db-mentor-student.vercel.app/add-mentor/100    { 100 to 108 -> refers to the students}

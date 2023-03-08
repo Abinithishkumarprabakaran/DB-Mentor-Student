@@ -1,0 +1,161 @@
+const mentor = 
+    [
+        {
+            "id" : 1,
+            "name" : "Arvind",
+            "email" : "arvind@gmail.com",
+            "skills" : ["ReactJS", "NodeJS", "Javascript"]
+        }
+    ],
+    [
+        {
+            "id" : 2,
+            "name" : "Giridharan",
+            "email" : "giridharan@gmail.com",
+            "skills" : ["DotNet", "Spring", "Java"]
+        }
+    ],
+    [
+        {
+            "id" : 3,
+            "name" : "Karthikeyan",
+            "email" : "karthikeyan@gmail.com",
+            "skills" : ["Digital Marketing", "Social Media Manager", "Content Creator"]
+        }
+    ],
+    [
+        {
+            "id" : 4,
+            "name" : "Joseph Vijay",
+            "email" : "vijay@gmail.com",
+            "skills" : ["Digital Marketing"]
+        }
+    ]
+
+
+const Students = [
+    {
+        "id" : 100,
+        "name" : "Roshan",
+        "email" : "roshan@gmail.com"
+    },
+    {
+        "id" : 101,
+        "name" : "Roshini",
+        "email" : "roshini@gmail.com"
+    },
+    {
+        "id" : 102,
+        "name" : "Arun",
+        "email" : "arun@gmail.com"
+    },
+    {
+        "id" : 103,
+        "name" : "Saragika",
+        "email" : "sagarika@gmail.com"
+    },
+    {
+        "id" : 104,
+        "name" : "Jacob Daniel",
+        "email" : "jacob@gmail.com"
+    },
+    {
+        "id" : 105,
+        "name" : "Sharan",
+        "email" : "sharan@gmail.com"
+    },
+    {
+        "id" : 106,
+        "name" : "Monisha",
+        "email" : "monisha@gmail.com"
+    },
+    {
+        "id" : 107,
+        "name" : "Dharshan",
+        "email" : "dharshan@gmail.com"
+    },
+    {
+        "id" : 108,
+        "name" : "Rajesh",
+        "email" : "rajesh@gmail.com"
+    }
+]
+
+
+const StudentsforArvind = [
+    {
+        "name" : "Roshan",
+        "email" : "roshan@gmail.com",
+    },
+    {
+        "name" : "Roshini",
+        "email" : "roshini@gmail.com",
+    },
+    {
+        "name" : "Arun",
+        "email" : "arun@gmail.com",
+    }
+]
+
+const StudentsforGiridharan = [
+    {
+        "name" : "Saragika",
+        "email" : "sagarika@gmail.com",
+    },
+    {
+        "name" : "Jacob Daniel",
+        "email" : "jacob@gmail.com",
+    },
+    {
+        "name" : "Sharan",
+        "email" : "sharan@gmail.com",
+    }
+]
+
+const StudentsforKarthiekeyan = [
+    {
+        "name" : "Monisha",
+        "email" : "monisha@gmail.com",
+    },
+    {
+        "name" : "Dharshan",
+        "email" : "dharshan@gmail.com",
+    },
+    {
+        "name" : "Rajesh",
+        "email" : "rajesh@gmail.com",
+    }
+]
+
+{"student" : [100, 101, 102]} 
+
+{"student" : [103, 104, 105]} 
+
+{"student" : [106, 107, 108]} 
+
+
+arr = [2,3,4,5]
+
+let result = arr.map((val) => val*2)
+console.log(result)
+
+
+if not mentor
+
+    student = day41task.student.findOne({"id": id})
+
+    // update the student-mentor
+    day41task.student.UpdateOne({"id": id}, $set: {mentor: data.mentor})
+
+    // update the mentor-Students
+    mentor = day41task.mentor.findOne({"id": data.mentor})
+
+    day41task.mentor.UpdateOne({"id": data.mentor}, { $set: { "student": [...mentor.student, id] } })
+
+if mentor is present, so we should update the mentor!
+
+    // we need to update the mentor the other value that user has given
+    student = day41task.student.findOne({"id": id})
+
+    // update the student-mentor
+    day41task.student.UpdateOne({"id": id}, $set: {mentor: data.mentor})
